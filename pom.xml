@@ -125,6 +125,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
                 <configuration>
                     <encoding>UTF-8</encoding>
                     <source>1.5</source>
@@ -133,6 +134,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.4.1</version>
                 <configuration>
                     <descriptors>
                         <descriptor>src/main/assembly/dist-assembly.xml</descriptor>
@@ -142,6 +144,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
+                <version>2.3</version>
 				<executions>
 					<execution>
 						<goals>
@@ -153,7 +156,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-resources-plugin</artifactId>
-				<version>2.5</version>
+				<version>2.6</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 				</configuration>
@@ -161,16 +164,15 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
-				<version>2.1.1</version>
+				<version>3.4</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.6.1</version>
+				<version>2.9.1</version>
 				<configuration>
 					<encoding>UTF-8</encoding>
 				</configuration>
-				<!--  
 				<executions>
 					<execution>
 						<goals>
@@ -179,7 +181,6 @@
 						</goals>
 					</execution>
 				</executions>
-				-->
 			</plugin>
         </plugins>
     </build>
@@ -190,15 +191,15 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jdepend-maven-plugin</artifactId>
-                <version>2.0-beta-1</version>
+                <version>2.0</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>2.7</version>
                 <reportSets>
                     <reportSet>
                         <reports>
-
                             <report>dependencies</report>
                             <report>project-team</report>
                             <report>license</report>
@@ -210,6 +211,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
+                <version>3.2</version>
                 <configuration>
                     <linkXref>true</linkXref>
                     <sourceEncoding>UTF-8</sourceEncoding>
@@ -217,22 +219,11 @@
                     <targetJdk>1.5</targetJdk>
                 </configuration>
             </plugin>
-<!--
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-javadoc-plugin</artifactId>
-            </plugin>
-  
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>jxr-maven-plugin</artifactId>
-            </plugin>
--->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>2.17</version>
             </plugin>
-
         </plugins>
     </reporting>
 
