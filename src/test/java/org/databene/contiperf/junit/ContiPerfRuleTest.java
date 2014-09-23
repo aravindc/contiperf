@@ -167,11 +167,11 @@ public class ContiPerfRuleTest {
 	
 	// helper methods --------------------------------------------------------------------------------------------------
 
-	private TestBean check(String methodName) throws NoSuchMethodException, Throwable {
+	private static TestBean check(String methodName) throws NoSuchMethodException, Throwable {
 	    return check(new TestBean(), methodName);
     }
 	
-	private TestBean check(TestBean target, String methodName) throws NoSuchMethodException, Throwable {
+	private static TestBean check(TestBean target, String methodName) throws NoSuchMethodException, Throwable {
 	    ContiPerfRule rule = new ContiPerfRule(new ListReportModule());
 		Method method = TestBean.class.getDeclaredMethod(methodName, new Class<?>[0]);
 		Statement base = new InvokerStatement(target, method);
@@ -208,6 +208,7 @@ public class ContiPerfRuleTest {
 		@PerfTest(invocations = 5)
 		@Required(median = 100)
 		public void median100Successful() {
+			// no implementation
 		}
 
 		@PerfTest(invocations = 5)
@@ -219,6 +220,7 @@ public class ContiPerfRuleTest {
 		@PerfTest(invocations = 5)
 		@Required(average = 100)
 		public void average100Successful() {
+			// no implementation
 		}
 
 		@PerfTest(invocations = 5)
@@ -229,6 +231,7 @@ public class ContiPerfRuleTest {
 		
 		@Required(max = 100)
 		public void max100Successful() {
+			// no implementation
 		}
 
 		@PerfTest(invocations = 10)

@@ -40,7 +40,7 @@ public class ProfilerTest {
 	public void test() {
 		
 		// given
-		Profiler profiler = new Profiler("test", 100, "ds");
+		Profiler profiler = new Profiler("test", 100);
 		
 		//when
 		List<String> path = new ArrayList<String>();

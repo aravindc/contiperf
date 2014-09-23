@@ -47,6 +47,7 @@ public class ExecutionTestLogger implements ExecutionLogger {
     }
 
 	public void logSummary(String id, long elapsedTime, long invocationCount, long startTime) {
+		// empty implementation
     }
 
 }

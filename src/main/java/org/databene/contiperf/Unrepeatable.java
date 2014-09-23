@@ -41,5 +41,5 @@ import java.lang.annotation.Target;
 @Target({ METHOD })
 @Retention(RUNTIME)
 public @interface Unrepeatable {
-
+	// no tags - it's just a marker annotation
 }

@@ -64,6 +64,7 @@ public class HtmlReportModule extends AbstractReportModule {
 
 	// ReportModule interface implementation ---------------------------------------------------------------------------
 
+	@Override
 	public void setContext(ReportContext context) {
 		this.context = context;
 	}

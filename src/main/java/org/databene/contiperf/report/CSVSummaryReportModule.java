@@ -127,7 +127,7 @@ public class CSVSummaryReportModule extends AbstractReportModule {
         }
 	}
 	
-	private String filename() {
+	private static String filename() {
 		return "summary.csv";
 	}
 	

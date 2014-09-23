@@ -45,10 +45,12 @@ public class CSVInvocationReportModule extends AbstractReportModule {
 	
 	private PrintWriter out;
 	
+	@Override
 	public String getReportReferenceLabel(String serviceId) {
 		return "Invocations as CSV";
 	}
 	
+	@Override
 	public String getReportReference(String serviceId) {
 		return (serviceId != null ? filename(serviceId) : null);
 	}

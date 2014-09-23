@@ -117,7 +117,7 @@ public class CounterRepository {
 		return counter;
 	}
 
-	private void printSummaryTable(List<String[]> list) {
+	private static void printSummaryTable(List<String[]> list) {
 		// determine column widths
 		int[] widths = new int[4];
 		for (int col = 0; col < 4; col++) {
@@ -144,7 +144,7 @@ public class CounterRepository {
 		}
 	}
 
-	private void pad(int count) {
+	private static void pad(int count) {
 		for (int i = 0; i < count; i++)
 			System.out.print(' ');
 	}

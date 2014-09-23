@@ -31,15 +31,13 @@ import java.util.List;
  */
 public class Profiler {
 	
-	private static final Profiler DEFAULT_INSTANCE = new Profiler("default", 1, "ms");
+	private static final Profiler DEFAULT_INSTANCE = new Profiler("default", 1);
 
 	private long granularity;
-	private String unit;
 	private Profile rootProfile;
 	
-	public Profiler(String name, long granularity, String unit) {
+	public Profiler(String name, long granularity) {
 		this.granularity = granularity;
-		this.unit = unit;
 		this.rootProfile = new Profile(name, null);
 	}
 	

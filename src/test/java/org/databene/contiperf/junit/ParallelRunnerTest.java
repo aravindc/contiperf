@@ -70,6 +70,7 @@ public class ParallelRunnerTest {
 	
 	@Test
 	public void test3() throws Exception {
+		// empty method for testing
 	}
 	
 	@AfterClass

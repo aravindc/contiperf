@@ -51,7 +51,7 @@ public class ContiPerfSuiteTest {
 	
 	@Test
 	public void test() {
-		
+		// Empty test method
 	}
 	
 	@Test
@@ -121,7 +121,7 @@ public class ContiPerfSuiteTest {
 */
 	// helper methods --------------------------------------------------------------------------------------------------
 
-	private void runSuite(Class<?> testClass) throws InitializationError {
+	private static void runSuite(Class<?> testClass) throws InitializationError {
 	    ContiPerfSuiteRunner suite = new ContiPerfSuiteRunner(testClass);
 		RunNotifier notifier = new RunNotifier();
 		suite.run(notifier);
@@ -132,45 +132,53 @@ public class ContiPerfSuiteTest {
 	@RunWith(ContiPerfSuiteRunner.class)
 	@SuiteClasses(UnconfiguredTest.class)
 	public static class UnconfiguredSuiteForUnconfiguredTest {
+		// no implementation useful for test suite
 	}
 	
 	@RunWith(ContiPerfSuiteRunner.class)
 	@SuiteClasses(UnconfiguredTest.class)
 	@PerfTest(invocations = 11, threads = 2)
 	public static class ConfiguredSuiteForUnconfiguredTest {
+		// no implementation useful for test suite
 	}
 	
 	@RunWith(ContiPerfSuiteRunner.class)
 	@SuiteClasses(ConfiguredMethodTest.class)
 	public static class UnconfiguredSuiteForConfiguredMethodTest {
+		// no implementation useful for test suite
 	}
 	
 	@RunWith(ContiPerfSuiteRunner.class)
 	@SuiteClasses(ConfiguredMethodTest.class)
 	@PerfTest(invocations = 13, threads = 2)
 	public static class ConfiguredSuiteForConfiguredMethodTest {
+		// no implementation useful for test suite
 	}
 	
 	@RunWith(ContiPerfSuiteRunner.class)
 	@SuiteClasses(ConfiguredClassTest.class)
 	public static class UnconfiguredSuiteForConfiguredClassTest {
+		// no implementation useful for test suite
 	}
 	
 	@RunWith(ContiPerfSuiteRunner.class)
 	@SuiteClasses(ConfiguredClassTest.class)
 	@PerfTest(invocations = 17, threads = 2)
 	public static class ConfiguredSuiteForConfiguredClassTest {
+		// no implementation useful for test suite
 	}
 	
 	@RunWith(ContiPerfSuiteRunner.class)
 	@SuiteClasses(ConfiguredClassAndMethodTest.class)
 	public static class UnconfiguredSuiteForConfiguredClassAndMethodTest {
+		// no implementation useful for test suite
 	}
 	
 	@RunWith(ContiPerfSuiteRunner.class)
 	@SuiteClasses(ConfiguredClassAndMethodTest.class)
 	@PerfTest(invocations = 19, threads = 2)
 	public static class ConfiguredSuiteForConfiguredClassAndMethodTest {
+		// no implementation useful for test suite
 	}
 	
 /* 

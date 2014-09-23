@@ -64,6 +64,7 @@ public class LoggerModuleAdapter extends AbstractReportModule {
 		this.logger = logger;
 	}
 
+	@Override
 	public void invoked(String serviceId, int latency, long startTime) {
 		logger.logInvocation(serviceId, latency, startTime);
 	}

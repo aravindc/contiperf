@@ -66,13 +66,13 @@ public class GoogleLatencyRenderer {
 		}
 	}
 
-	private void renderLabels(LatencyDataSet dataset, StringBuilder builder) {
+	private static void renderLabels(LatencyDataSet dataset, StringBuilder builder) {
 		builder.append("&chm=B,FFE69B,0,0,0"); // fill
 		for (LabelInfo label : dataset.getLabels())
 			builder.append("|A" + label.text + ",666666,0," + label.index + ",15"); // labels
 	}
 
-	private void appendData(LatencyDataSet dataset, StringBuilder builder) {
+	private static void appendData(LatencyDataSet dataset, StringBuilder builder) {
 		builder.append("&chd=t:");
 		for (int i = 0; i < dataset.pointCount(); i++) {
 			if (i > 0)

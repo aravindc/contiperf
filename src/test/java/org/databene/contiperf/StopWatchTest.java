@@ -68,6 +68,7 @@ public class StopWatchTest {
 		Thread[] threads = new Thread[20];
 		for (int i = 0; i < threads.length; i++) {
 			threads[i] = new Thread() {
+				@Override
 				public void run() {
 					try {
 						for (int i = 0; i < 20; i++)
@@ -97,13 +98,13 @@ public class StopWatchTest {
 		watch.stop();
 	}
 
-	private void sleepTimed(int delay) throws InterruptedException {
+	private static void sleepTimed(int delay) throws InterruptedException {
 		StopWatch watch = new StopWatch(NAME);
 		Thread.sleep(delay);
 		watch.stop();
 	}
 	
-	private LatencyCounter getCounter() {
+	private static LatencyCounter getCounter() {
 		return CounterRepository.getInstance().getCounter(NAME);
 	}
 

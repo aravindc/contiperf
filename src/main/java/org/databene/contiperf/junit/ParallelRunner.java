@@ -44,6 +44,7 @@ public class ParallelRunner extends BlockJUnit4ClassRunner {
 		super(klass);
 	}
 
+	@Override
 	protected Statement childrenInvoker(final RunNotifier notifier) {
 		return new Statement() {
 			@Override

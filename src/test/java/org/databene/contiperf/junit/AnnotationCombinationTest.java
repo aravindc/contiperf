@@ -51,6 +51,7 @@ public class AnnotationCombinationTest extends AbstractContiPerfTest {
 	@SuiteClasses(TestWithRequirements.class)
 	@PerfTest(invocations = 2)
 	public static class SucessfulSuiteWithExecutionConfig {
+		// no content appropriate for suite
 	}
 	
 	// testing suite that misses the requirements ----------------------------------------------------------------------
@@ -65,6 +66,7 @@ public class AnnotationCombinationTest extends AbstractContiPerfTest {
 	@SuiteClasses(TestWithRequirements.class)
 	@PerfTest(invocations = 5)
 	public static class FailingSuiteWithExecutionConfig {
+		// no content appropriate for suite
 	}
 	
 	// simple test class with performance requirements annotation ------------------------------------------------------

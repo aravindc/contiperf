@@ -34,6 +34,7 @@ public class InvocationCountingReportModule extends AbstractReportModule {
 
 	AtomicLong invocationCount = new AtomicLong();
 	
+	@Override
 	public void invoked(String serviceId, int latency, long startTime) {
 		invocationCount.incrementAndGet();
 	}

@@ -67,7 +67,7 @@ public class RandomTimerTest {
 			assertRange(2000, 2500, timer.getWaitTime());
 	}
 
-	private void assertRange(int minExpected, int maxExpected, int waitTime) {
+	private static void assertRange(int minExpected, int maxExpected, int waitTime) {
 		assertTrue(minExpected <= waitTime && waitTime <= maxExpected);
 	}
 	

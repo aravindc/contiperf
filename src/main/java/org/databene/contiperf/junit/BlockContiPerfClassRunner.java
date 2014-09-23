@@ -54,6 +54,7 @@ public class BlockContiPerfClassRunner extends BlockJUnit4ClassRunner {
 	
 	/** method taken as is from BlockJUnit4ClassRunner 4.7 
 	 * in order to preserve its functionality over following versions */
+	@Override
 	protected Statement methodBlock(FrameworkMethod method) {
 		Object test;
 		try {
@@ -87,6 +88,7 @@ public class BlockContiPerfClassRunner extends BlockJUnit4ClassRunner {
 	}
 	
 	/** actual override feature of this class */
+	@Override
 	protected List<MethodRule> rules(Object test) {
 	    boolean configured = false;
 		List<MethodRule> rules = new ArrayList<MethodRule>();
@@ -113,7 +115,7 @@ public class BlockContiPerfClassRunner extends BlockJUnit4ClassRunner {
 
 	/** method taken as is from BlockJUnit4ClassRunner 4.7 
 	 * in order to preserve its functionality over following versions */
-	private MethodRule createRule(Object test,
+	private static MethodRule createRule(Object test,
 			FrameworkField each) {
 		try {
 			return (MethodRule) each.get(test);

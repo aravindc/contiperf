@@ -90,7 +90,7 @@ public class CSVLatencyReportModule extends AbstractReportModule {
 
 	// helper methods --------------------------------------------------------------------------------------------------
 
-	private void writeHeader(String serviceId, OutputStream out) {
+	private static void writeHeader(String serviceId, OutputStream out) {
         String line = "latency,sampleCount" + LINE_SEPARATOR;
 		try {
 			out.write(line.getBytes());
@@ -111,7 +111,7 @@ public class CSVLatencyReportModule extends AbstractReportModule {
         }
 	}
 	
-	private String filename(String serviceId) {
+	private static String filename(String serviceId) {
 		return serviceId + ".stat.csv";
 	}
 	
