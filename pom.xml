@@ -4,16 +4,16 @@
 
 	<groupId>org.databene</groupId>
 	<artifactId>contiperf</artifactId>
-	<version>2.3.4-EA2</version>
-
+	<version>2.3.4</version>
 	<packaging>jar</packaging>
+
 	<name>databene ContiPerf</name>
-	<url>http://databene.org/contiperf</url>
-	<inceptionYear>2009</inceptionYear>
 	<description>
     	ContiPerf is an open source testing utility that enables the user to easily
     	convert JUnit 4 test cases into performance tests.
     </description>
+	<url>http://databene.org/contiperf</url>
+	<inceptionYear>2009</inceptionYear>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -40,9 +40,9 @@
 			<organizationUrl>http://www.bergmann-it.de</organizationUrl>
 			<timezone>+1</timezone>
 			<roles>
-				<role>Project Founder</role>
-				<role>Architect</role>
-				<role>Developer</role>
+				<role>project founder</role>
+				<role>architect</role>
+				<role>developer</role>
 			</roles>
 		</developer>
 	</developers>
@@ -59,14 +59,6 @@
 	</dependencies>
 
 	<build>
-
-		<extensions>
-			<extension>
-				<groupId>org.apache.maven.wagon</groupId>
-				<artifactId>wagon-ftp</artifactId>
-				<version>1.0-alpha-6</version>
-			</extension>
-		</extensions>
 
 		<resources>
 			<resource>
@@ -273,10 +265,13 @@
 	</profiles>
 
 	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
 		<repository>
-			<id>databene.repo</id>
-			<name>Databene Internal Repository</name>
-			<url>ftp://databene.org</url>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
 
