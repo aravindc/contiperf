@@ -8,37 +8,49 @@
     <fileSets>
         <!-- license files and release notes -->
         <fileSet>
-            <directory>/</directory>
+            <directory></directory>
             <outputDirectory>/</outputDirectory>
             <includes>
-                <include>Apache_License-2.0.txt</include>
-                <include>bsd-license.txt</include>
-                <include>epl-v10.html</include>
-                <include>lgpl-version3.txt</include>
+                <include>LICENSE.TXT</include>
             </includes>
         </fileSet>
         <!-- doc -->
         <fileSet>
             <directory>target/site/apidocs</directory>
             <outputDirectory>doc/api</outputDirectory>
+            <excludes>
+            	<exclude>__MACOSX</exclude>
+            </excludes>
         </fileSet>
         <!-- main -->
         <fileSet>
             <directory>src/main/java</directory>
             <outputDirectory>src</outputDirectory>
+            <excludes>
+            	<exclude>__MACOSX</exclude>
+            </excludes>
         </fileSet>
         <fileSet>
             <directory>src/main/resources</directory>
             <outputDirectory>src</outputDirectory>
+            <excludes>
+            	<exclude>__MACOSX</exclude>
+            </excludes>
         </fileSet>
         <!-- test -->
         <fileSet>
             <directory>src/test/java</directory>
             <outputDirectory>test</outputDirectory>
+            <excludes>
+            	<exclude>__MACOSX</exclude>
+            </excludes>
         </fileSet>
         <fileSet>
             <directory>src/test/resources</directory>
             <outputDirectory>test</outputDirectory>
+            <excludes>
+            	<exclude>__MACOSX</exclude>
+            </excludes>
         </fileSet>
 	    <fileSet>
 			<directory>target</directory>
@@ -48,7 +60,7 @@
 			</includes>
 			<excludes>
 				<exclude>*-sources.jar</exclude>
-			</excludes>
+            </excludes>
 	    </fileSet>
     </fileSets>
 
@@ -59,5 +71,4 @@
             <unpack>false</unpack>
         </dependencySet>
     </dependencySets>
-
 </assembly>
