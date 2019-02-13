@@ -24,7 +24,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 /**
  * Tests the combination of a {@link Required} annotation in a plain test class 
- * and a {@link PerfTest} in a suite that contains the former test.<br/><br/>
+ * and a {@link PerfTest} in a suite that contains the former test.<br><br>
  * Created: 24.05.2010 06:42:31
  * @since 1.05
  * @author Volker Bergmann

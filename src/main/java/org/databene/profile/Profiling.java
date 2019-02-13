@@ -15,7 +15,7 @@
 package org.databene.profile;
 
 /**
- * Encapsulates access to Profiling configuration.<br/><br/>
+ * Encapsulates access to Profiling configuration.<br><br>
  * Created: 21.07.2011 08:28:43
  * @since 2.0.0
  * @author Volker Bergmann

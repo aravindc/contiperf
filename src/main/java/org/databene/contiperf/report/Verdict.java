@@ -15,7 +15,7 @@
 package org.databene.contiperf.report;
 
 /**
- * Enumeration of ContiPerf test verdicts.<br/><br/>
+ * Enumeration of ContiPerf test verdicts.<br><br>
  * Created: 25.01.2011 19:29:45
  * @since 2.0.0
  * @author Volker Bergmann

@@ -25,7 +25,7 @@ import org.junit.Rule;
 import org.junit.Test;
 
 /**
- * Tests handling of warmUp settings.<br/><br/>
+ * Tests handling of warmUp settings.<br><br>
  * Created: 07.04.2012 08:00:01
  * @since 2.1.0
  * @author Volker Bergmann

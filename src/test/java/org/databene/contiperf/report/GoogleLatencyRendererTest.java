@@ -22,7 +22,7 @@ import org.databene.stat.LatencyCounter;
 import org.junit.Test;
 
 /**
- * Tests the {@link GoogleLatencyRenderer}.<br/><br/>
+ * Tests the {@link GoogleLatencyRenderer}.<br><br>
  * Created: 14.01.2011 12:57:27
  * @since 2.0.0
  * @author Volker Bergmann

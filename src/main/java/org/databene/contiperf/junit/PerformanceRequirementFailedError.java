@@ -17,7 +17,7 @@ package org.databene.contiperf.junit;
 import junit.framework.AssertionFailedError;
 
 /**
- * JUnit-specific class for indicating performance requirement failures.<br/><br/>
+ * JUnit-specific class for indicating performance requirement failures.<br><br>
  * Created: 16.01.2011 15:39:01
  * @since 2.0.0
  * @author Volker Bergmann

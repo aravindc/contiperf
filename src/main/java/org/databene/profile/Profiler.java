@@ -17,7 +17,7 @@ package org.databene.profile;
 import java.util.List;
 
 /**
- * Organizes {@link Profile}s in a tree structure.<br/><br/>
+ * Organizes {@link Profile}s in a tree structure.<br><br>
  * Created: 19.05.2011 09:01:32
  * @since 2.0.0
  * @author Volker Bergmann

@@ -18,7 +18,7 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryUsage;
 
 /**
- * Tracks the consumed heap size.<br/><br/>
+ * Tracks the consumed heap size.<br><br>
  * Created: 13.12.2012 13:31:56
  * @since 2.3.1
  * @author Volker Bergmann

@@ -17,7 +17,7 @@ package org.databene.contiperf;
 import org.databene.contiperf.util.ContiPerfUtil;
 
 /**
- * Calls the invoker for a certain amount of time.<br/><br/>
+ * Calls the invoker for a certain amount of time.<br><br>
  * Created: 15.04.2010 23:13:52
  * @since 1.03
  * @author Volker Bergmann

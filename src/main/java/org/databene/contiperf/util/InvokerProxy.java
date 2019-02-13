@@ -17,7 +17,7 @@ package org.databene.contiperf.util;
 import org.databene.contiperf.Invoker;
 
 /**
- * {@link Invoker} implementation which acts as a proxy to another Invoker.<br/><br/>
+ * {@link Invoker} implementation which acts as a proxy to another Invoker.<br><br>
  * Created: 29.03.2010 11:41:54
  * @since 1.0
  * @author Volker Bergmann

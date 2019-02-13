@@ -24,7 +24,7 @@ import org.databene.contiperf.report.ReportContext;
 import org.databene.contiperf.report.ReportModule;
 
 /**
- * JUnit-specific implementation of the ReportContext interface.<br/><br/>
+ * JUnit-specific implementation of the ReportContext interface.<br><br>
  * Created: 16.01.2011 15:12:24
  * @since 2.0.0
  * @author Volker Bergmann

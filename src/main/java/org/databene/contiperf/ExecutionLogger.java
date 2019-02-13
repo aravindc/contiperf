@@ -18,7 +18,7 @@ import org.databene.contiperf.report.LoggerModuleAdapter;
 import org.databene.contiperf.report.ReportModule;
 
 /**
- * Deprecated Observer interface for ContiPerf 1.x.<br/><br/>
+ * Deprecated Observer interface for ContiPerf 1.x.<br><br>
  * Created: 12.10.2009 08:11:23
  * @since 1.0
  * @author Volker Bergmann

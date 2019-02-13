@@ -20,7 +20,7 @@ import org.databene.contiperf.Clock;
 
 /**
  * {@link Clock} implementation which provides the user time of the current thread
- * via {@link java.lang.management.ThreadMXBean#getCurrentThreadUserTime()}<br/><br/>
+ * via {@link java.lang.management.ThreadMXBean#getCurrentThreadUserTime()}<br><br>
  * Created: 23.05.2012 08:07:32
  * @since 2.2.0
  * @author Volker Bergmann

@@ -15,7 +15,7 @@
 package org.databene.contiperf;
 
 /**
- * Indicates that a performance requirement has been missed in a performance test.<br/><br/>
+ * Indicates that a performance requirement has been missed in a performance test.<br><br>
  * Created: 16.04.2010 11:50:09
  * @since 1.03
  * @author Volker Bergmann

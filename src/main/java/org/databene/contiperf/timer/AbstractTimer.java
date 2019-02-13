@@ -17,7 +17,7 @@ package org.databene.contiperf.timer;
 import org.databene.contiperf.WaitTimer;
 
 /**
- * Helper class to inherit custom {@link WaitTimer}s from.<br/><br/>
+ * Helper class to inherit custom {@link WaitTimer}s from.<br><br>
  * Created: 06.04.2012 18:43:28
  * @since 2.1.0
  * @author Volker Bergmann

@@ -26,7 +26,7 @@ import org.databene.contiperf.report.CSVSummaryReportModule;
 import org.databene.contiperf.util.ContiPerfUtil;
 
 /**
- * {@link ExecutionLogger} implementation which writes the execution log to a file.<br/><br/>
+ * {@link ExecutionLogger} implementation which writes the execution log to a file.<br><br>
  * Created: 12.10.09 10:12:39
  * @since 1.0
  * @author Volker Bergmann

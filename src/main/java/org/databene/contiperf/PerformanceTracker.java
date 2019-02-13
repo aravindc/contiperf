@@ -23,7 +23,7 @@ import org.databene.contiperf.util.InvokerProxy;
 import org.databene.stat.LatencyCounter;
 
 /**
- * {@link InvokerProxy} that provides performance tracking features.<br/><br/>
+ * {@link InvokerProxy} that provides performance tracking features.<br><br>
  * Created: 22.10.2009 16:36:43
  * @since 1.0
  * @author Volker Bergmann

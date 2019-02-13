@@ -19,7 +19,7 @@ import org.databene.contiperf.PerformanceRequirement;
 import org.databene.stat.LatencyCounter;
 
 /**
- * Utility class for report modules.<br/><br/>
+ * Utility class for report modules.<br><br>
  * Created: 25.01.2011 19:52:59
  * @since 2.0.0
  * @author Volker Bergmann

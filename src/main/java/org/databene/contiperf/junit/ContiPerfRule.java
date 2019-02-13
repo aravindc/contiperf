@@ -92,7 +92,7 @@ import org.junit.runners.model.Statement;
  * <p>For reusing integration tests as performance tests, you can suppress
  * ContiPerf execution by setting the System property <code>contiperf.active=false</code>. 
  * </p>
- * <br/><br/>
+ * <br><br>
  * Created: 12.10.2009 07:36:02
  * @since 1.0
  * @author Volker Bergmann

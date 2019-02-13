@@ -24,7 +24,7 @@ import org.databene.contiperf.report.ListReportModule;
 
 /**
  * {@link ExecutionLogger} implementation that stores all reported invocation logs and 
- * summaries in lists.<br/><br/>
+ * summaries in lists.<br><br>
  * Created: 29.03.2010 12:37:33
  * @since 1.0
  * @author Volker Bergmann

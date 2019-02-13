@@ -23,7 +23,7 @@ import org.junit.Rule;
 import org.junit.Test;
 
 /**
- * Verifies that before and after methods are executed only once for each test method.<br/><br/>
+ * Verifies that before and after methods are executed only once for each test method.<br><br>
  * Created: 10.09.2011 14:43:43
  * @since 2.0.0
  * @author Volker Bergmann

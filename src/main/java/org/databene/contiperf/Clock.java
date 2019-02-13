@@ -15,7 +15,7 @@
 package org.databene.contiperf;
 
 /**
- * Extension interface for different providers of time, e.g. system, CPU or user time.<br/><br/>
+ * Extension interface for different providers of time, e.g. system, CPU or user time.<br><br>
  * Created: 23.05.2012 07:51:45
  * @since 2.2.0
  * @author Volker Bergmann

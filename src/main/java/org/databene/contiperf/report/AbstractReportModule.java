@@ -21,8 +21,8 @@ import org.databene.stat.LatencyCounter;
 /**
  * Abstract parent class for {@link ReportModule}s, which provides 
  * {@link ReportContext} handling and empty implementations of the 
- * other {@link ReportModule} methods.<br/>
- * <br/>
+ * other {@link ReportModule} methods.<br>
+ * <br>
  * Created: 16.01.2011 08:07:21
  * @since 2.0.0
  * @author Volker Bergmann

@@ -17,7 +17,7 @@ package org.databene.contiperf;
 import org.databene.contiperf.util.ContiPerfUtil;
 
 /**
- * Defines performance requirements on a test.<br/><br/>
+ * Defines performance requirements on a test.<br><br>
  * Created: 18.10.2009 06:21:57
  * @since 1.0
  * @author Volker Bergmann

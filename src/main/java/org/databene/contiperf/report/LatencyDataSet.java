@@ -19,7 +19,7 @@ import java.util.List;
 
 /**
  * Helper class for managing and reducing latency distribution counts
- * to dimensions that can pe handled by the {@link GoogleLatencyRenderer}.<br/><br/>
+ * to dimensions that can pe handled by the {@link GoogleLatencyRenderer}.<br><br>
  * Created: 14.01.2011 12:59:40
  * @since 2.0.0
  * @author Volker Bergmann

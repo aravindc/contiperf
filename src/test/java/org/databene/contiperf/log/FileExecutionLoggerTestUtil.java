@@ -15,7 +15,7 @@
 package org.databene.contiperf.log;
 
 /**
- * Helper class for testing.<br/><br/>
+ * Helper class for testing.<br><br>
  * Created: 23.05.2010 06:17:33
  * @since 1.05
  * @author Volker Bergmann

@@ -20,7 +20,7 @@ import org.databene.contiperf.report.HtmlReportModule;
 import org.databene.contiperf.report.ReportContext;
 
 /**
- * Parses and provides the ContiPerf configuration.<br/><br/>
+ * Parses and provides the ContiPerf configuration.<br><br>
  * Created: 18.10.2009 06:46:31
  * @since 1.0
  * @author Volker Bergmann

@@ -24,7 +24,7 @@ import org.junit.Rule;
 import org.junit.Test;
 
 /**
- * Tests the usage of multiple {@link Clock}s.<br/><br/>
+ * Tests the usage of multiple {@link Clock}s.<br><br>
  * Created: 24.05.2012 09:30:45
  * @since 2.2.0
  * @author Volker Bergmann

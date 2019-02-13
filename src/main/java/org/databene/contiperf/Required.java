@@ -23,7 +23,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
 /**
- * Specifies performance requirements for a test.<br/><br/>
+ * Specifies performance requirements for a test.<br><br>
  * Created: 15.10.2009 14:42:57
  * @since 1.0
  * @author Volker Bergmann

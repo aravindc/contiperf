@@ -22,7 +22,7 @@ import java.util.Map;
 import org.databene.stat.LatencyCounter;
 
 /**
- * Uses a {@link LatencyCounter} to collect profile information and manages sub profiles.<br/><br/>
+ * Uses a {@link LatencyCounter} to collect profile information and manages sub profiles.<br><br>
  * Created: 19.05.2011 09:08:27
  * @since 2.0.0
  * @author Volker Bergmann

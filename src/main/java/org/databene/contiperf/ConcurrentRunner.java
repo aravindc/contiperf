@@ -18,7 +18,7 @@ import org.databene.contiperf.util.ContiPerfUtil;
 
 /**
  * Runs several {@link Runnable}s concurrently. 
- * If a {@link Throwable} is encountered, execution of all threads is canceled.<br/><br/>
+ * If a {@link Throwable} is encountered, execution of all threads is canceled.<br><br>
  * Created: 15.04.2010 23:42:30
  * @since 1.03
  * @author Volker Bergmann

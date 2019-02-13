@@ -22,7 +22,7 @@ import org.junit.After;
 import org.junit.Test;
 
 /**
- * Tests the {@link StopWatch}.<br/><br/>
+ * Tests the {@link StopWatch}.<br><br>
  * Created: 14.01.2011 11:33:37
  * @since 1.08
  * @author Volker Bergmann

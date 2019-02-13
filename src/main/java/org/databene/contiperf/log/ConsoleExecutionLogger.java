@@ -18,7 +18,7 @@ import org.databene.contiperf.ExecutionLogger;
 import org.databene.contiperf.report.ConsoleReportModule;
 
 /**
- * {@link ExecutionLogger} implementation which writes the execution log to the console.<br/><br/>
+ * {@link ExecutionLogger} implementation which writes the execution log to the console.<br><br>
  * Created: 12.10.09 08:13:06
  * @since 1.0
  * @author Volker Bergmann

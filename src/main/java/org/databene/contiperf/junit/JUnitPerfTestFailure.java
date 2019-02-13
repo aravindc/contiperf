@@ -17,7 +17,7 @@ package org.databene.contiperf.junit;
 import junit.framework.AssertionFailedError;
 
 /**
- * Reports a performance test failure to the JUnit test framework.<br/><br/>
+ * Reports a performance test failure to the JUnit test framework.<br><br>
  * Created: 16.01.2011 15:01:16
  * @since 2.0.0
  * @author Volker Bergmann

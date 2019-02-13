@@ -18,7 +18,7 @@ import org.databene.contiperf.Clock;
 
 /**
  * {@link Clock} implementation which provides the system time 
- * using <code>{@link System#nanoTime()} / 1000000</code><br/><br/>.
+ * using <code>{@link System#nanoTime()} / 1000000</code><br><br>.
  * Created: 23.05.2012 07:52:53
  * @since 2.2.0
  * @author Volker Bergmann

@@ -27,7 +27,7 @@ import org.junit.runners.Suite.SuiteClasses;
 import org.junit.runners.model.InitializationError;
 
 /**
- * Tests {@link ContiPerfSuiteRunner} processing.<br/><br/>
+ * Tests {@link ContiPerfSuiteRunner} processing.<br><br>
  * Created: 02.05.2010 09:18:31
  * @since 1.05
  * @author Volker Bergmann

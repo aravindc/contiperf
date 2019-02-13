@@ -21,7 +21,7 @@ import java.util.List;
 
 /**
  * Central class for managing report modules as well as aspects that are specific for 
- * a 3rd party testing framework (e.g. JUnit) in which ContiPerf is to be integrated.<br/><br/>
+ * a 3rd party testing framework (e.g. JUnit) in which ContiPerf is to be integrated.<br><br>
  * Created: 16.01.2011 07:53:38
  * @since 2.0.0
  * @author Volker Bergmann

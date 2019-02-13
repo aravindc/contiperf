@@ -21,7 +21,7 @@ import org.databene.contiperf.report.LatencyDataSet.LabelInfo;
 import org.databene.stat.LatencyCounter;
 
 /**
- * Formats the latency distribution of a {@link LatencyCounter} using the Google charts API.<br/><br/>
+ * Formats the latency distribution of a {@link LatencyCounter} using the Google charts API.<br><br>
  * Created: 14.01.2011 11:54:18
  * @since 2.0.0
  * @author Volker Bergmann

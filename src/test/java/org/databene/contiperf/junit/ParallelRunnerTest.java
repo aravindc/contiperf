@@ -24,7 +24,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 /**
- * Tests the {@link ParallelRunner}.<br/><br/>
+ * Tests the {@link ParallelRunner}.<br><br>
  * Created: 07.04.2012 17:36:35
  * @since 2.1.0
  * @author Volker Bergmann

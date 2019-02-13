@@ -18,7 +18,7 @@ import org.databene.contiperf.ExecutionLogger;
 import org.databene.contiperf.report.EmptyReportModule;
 
 /**
- * Empty implementation of the {@link ExecutionLogger} interface.<br/><br/>
+ * Empty implementation of the {@link ExecutionLogger} interface.<br><br>
  * Created: 01.04.2010 12:05:53
  * @since 1.01
  * @author Volker Bergmann

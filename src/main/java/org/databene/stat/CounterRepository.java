@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Repository that binds {@link LatencyCounter}s to a name and makes them available to clients.<br/><br/>
+ * Repository that binds {@link LatencyCounter}s to a name and makes them available to clients.<br><br>
  * Created: 14.01.2011 11:26:09
  * @since 2.0.0
  * @author Volker Bergmann

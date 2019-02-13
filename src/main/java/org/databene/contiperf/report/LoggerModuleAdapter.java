@@ -21,7 +21,7 @@ import org.databene.stat.LatencyCounter;
 
 /**
  * Adapter class which makes implementors of the old {@link ExecutionLogger} interface 
- * available in ContiPerf 2.<br/><br/> 
+ * available in ContiPerf 2.<br><br> 
  * If you are migrating to ContiPerf, usages of the predefined 
  * ContiPerf {@link ExecutionLogger}s should be replaced with their {@link ReportModule}
  * counterpart. For example, if the old version was
@@ -32,7 +32,7 @@ import org.databene.stat.LatencyCounter;
  * <pre>
  *     @Rule public ContiPerfRule = new ContiPerfRule(new ConsoleReportModule());
  * </pre>
- * <br/>
+ * <br>
  * Custom ExecutionLogger implementations still can be used by wrapping them with a {@link LoggerModuleAdapter}.
  * If the old version was
  * <pre>
@@ -42,7 +42,7 @@ import org.databene.stat.LatencyCounter;
  * <pre>
  *     @Rule public ContiPerfRule = new ContiPerfRule(new LoggerModuleAdapter(new MyCustomLogger()));
  * </pre>
- * <br/><br/>
+ * <br><br>
  * Created: 16.01.2011 08:06:47
  * @since 2.0.0
  * @author Volker Bergmann

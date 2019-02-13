@@ -31,7 +31,7 @@ import org.databene.contiperf.Required;
 import org.databene.contiperf.clock.SystemClock;
 
 /**
- * Provides I/O utility methods.<br/><br/>
+ * Provides I/O utility methods.<br><br>
  * Created: 18.10.09 07:43:54
  * @since 1.0
  * @author Volker Bergmann

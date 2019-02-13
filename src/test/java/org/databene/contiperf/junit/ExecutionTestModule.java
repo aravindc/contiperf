@@ -17,7 +17,7 @@ package org.databene.contiperf.junit;
 import org.databene.contiperf.report.AbstractReportModule;
 
 /**
- * Helper class for testing ExecutionLogger handling.<br/><br/>
+ * Helper class for testing ExecutionLogger handling.<br><br>
  * Created: 22.05.2010 19:01:22
  * @since 1.05
  * @author Volker Bergmann

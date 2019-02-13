@@ -22,7 +22,7 @@ import org.junit.Rule;
 import org.junit.Test;
 
 /**
- * Tests the ramp-up behavior of ContiPerf.<br/><br/>
+ * Tests the ramp-up behavior of ContiPerf.<br><br>
  * Created: 06.04.2012 16:27:37
  * @since 2.1.0
  * @author Volker Bergmann
