@@ -34,7 +34,7 @@ public class Config {
 	
 	public boolean active() {
 		String sysprop = System.getProperty(SYSPROP_ACTIVE);
-		return (sysprop == null || !"false".equals(sysprop.trim().toLowerCase()));
+		return (sysprop == null || !"false".equalsIgnoreCase(sysprop.trim()));
     }
 
 	// helpers ---------------------------------------------------------------------------------------------------------
@@ -68,10 +68,11 @@ public class Config {
 
 	public File getReportFolder() {
 		File targetDir = new File("target");
-		File reportFolder = (targetDir.exists() ? 
+		return (targetDir.exists() ? 
 				new File(targetDir, DEFAULT_REPORT_FOLDER_NAME) : 
-				new File(DEFAULT_REPORT_FOLDER_NAME)); // TODO v2.x determine from config file
-		return reportFolder;
+				new File(DEFAULT_REPORT_FOLDER_NAME)); 
+		// TODO v2.x determine from config file
+		//return reportFolder;
 	}
 
 }
