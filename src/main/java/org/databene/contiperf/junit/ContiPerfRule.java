@@ -163,12 +163,14 @@ public class ContiPerfRule implements MethodRule {
 			try {
 				if (base instanceof RunAfters) {
 					runAfters = (RunAfters) base;
-					Field fNext = base.getClass().getDeclaredField("fNext");
+					//Field fNext = base.getClass().getDeclaredField("fNext");
+					Field fNext = getFieldNextWithJunit412Fallback(base);
 					fNext.setAccessible(true);
 					base = (Statement) fNext.get(base);
 				} else if (base instanceof RunBefores) {
 					runBefores = (RunBefores) base;
-					Field fNext = base.getClass().getDeclaredField("fNext");
+					//Field fNext = base.getClass().getDeclaredField("fNext");
+					Field fNext = getFieldNextWithJunit412Fallback(base);
 					fNext.setAccessible(true);
 					base = (Statement) fNext.get(base);
 				}
@@ -189,14 +191,16 @@ public class ContiPerfRule implements MethodRule {
 		try {
 			// if runBefores has been removed, reapply it
 			if (runBefores != null) {
-				Field fNext = runBefores.getClass().getDeclaredField("fNext");
+				//Field fNext = runBefores.getClass().getDeclaredField("fNext");
+				Field fNext = getFieldNextWithJunit412Fallback(runBefores);
 				fNext.setAccessible(true);
 				fNext.set(runBefores, base);
 				base = runBefores;
 			}
 			// if runAfters has been removed, reapply it
 			if (runAfters != null) {
-				Field fNext = runAfters.getClass().getDeclaredField("fNext");
+				//Field fNext = runAfters.getClass().getDeclaredField("fNext");
+				Field fNext = getFieldNextWithJunit412Fallback(runAfters);
 				fNext.setAccessible(true);
 				fNext.set(runAfters, base);
 				base = runAfters;
@@ -206,7 +210,15 @@ public class ContiPerfRule implements MethodRule {
 		}
 		return base;
     }
-	
+
+	private Field getFieldNextWithJunit412Fallback(final Statement base) throws NoSuchFieldException{
+		try {
+			return base.getClass().getDeclaredField("fNext");
+		} catch (NoSuchFieldException e) {
+			return base.getClass().getDeclaredField("next");
+		}
+	}
+
 	public ReportContext getContext() {
     	return context;
     }
