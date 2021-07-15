@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.org/aravindc/contiperf.svg?branch=master)](https://travis-ci.org/aravindc/contiperf)
+![Workflow](https://github.com/aravindc/contiperf/actions/workflows/github-actions.yml/badge.svg)
 
 In order to assure software performance, software needs to be tested accordingly as early as possible - only weaknesses diagnosed early can be assessed quickly and cheaply. ContiPerf enables performance testing already in early development phases and in an easy-to-learn manner: 
 

@@ -1,0 +1,14 @@
+name: Github Actions for Contiperf
+on: [push]
+jobs:
+  Compile-Contiperf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup JDK 8
+        uses: actions/setup-java@v2
+        with:
+          java-version: '8'
+          distribution: 'adopt'
+      - name: Build with maven
+        run: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
